@@ -11,4 +11,8 @@ module.exports = [
         plugins: { prettierLinter },
         rules: { 'prettierLinter/prettier': 'warn' },
     },
+    {
+        files: ['src/Chapter2/2.2/2.2.4/**/*.js'],
+        languageOptions: { globals: { ...globals.browser } },
+    },
 ];
