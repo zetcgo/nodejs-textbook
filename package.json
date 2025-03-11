@@ -1,6 +1,6 @@
 {
     "name": "zetcgo-template",
-    "version": "0.0.0",
+    "version": "2.3.0",
     "workspaces": [
         "src/**"
     ],
